@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #061b4e;
+  background: #ffffff;
+  --color-primary: #6d4aff;
+  --color-primary-dark: #4b2fd6;
+  --color-primary-light: #eef1ff;
+  --color-primary-hover: #5d3dec;
+  --color-accent-orange: #ff8a00;
+  --color-accent-blue: #0284c7;
+  --color-accent-green: #166b00;
+  --color-dark: #061b4e;
+  --color-page: #ffffff;
+  --color-section: #f7f7fa;
+  --color-lavender: #f5f1ff;
+  --color-blue-soft: #eef6ff;
+  --shadow-card: 0 18px 45px rgba(6, 27, 78, 0.07);
+  --shadow-card-hover: 0 28px 70px rgba(6, 27, 78, 0.13);
+  --radius-card: 1.75rem;
+  --radius-banner: 2.5rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer components {
+  .page-section {
+    @apply py-section-sm sm:py-section-md lg:py-section-lg;
+  }
+
+  .section-surface {
+    @apply bg-surface-section;
+  }
+
+  .section-lavender {
+    @apply bg-surface-lavender;
+  }
+
+  .section-blue {
+    @apply bg-surface-blue;
+  }
+
+  .section-title {
+    @apply text-3xl font-extrabold leading-tight tracking-normal text-dark sm:text-4xl lg:text-h2;
+  }
+
+  .display-title {
+    @apply text-4xl font-extrabold leading-[1.08] tracking-normal text-dark sm:text-5xl md:text-6xl lg:text-display;
+  }
+
+  .heading-card {
+    @apply break-words text-xl font-extrabold leading-tight tracking-normal text-dark sm:text-2xl;
+  }
+
+  .heading-card-lg {
+    @apply break-words text-2xl font-extrabold leading-tight tracking-normal text-dark sm:text-h3;
+  }
+
+  .body-copy {
+    @apply break-words text-base font-medium leading-7 text-dark/60;
+  }
+
+  .body-copy-lg {
+    @apply break-words text-base font-medium leading-8 text-dark/60 sm:text-lg;
+  }
+
+  .card-base {
+    @apply min-w-0 rounded-card border border-border-soft bg-surface-card shadow-card transition duration-300 ease-out;
+  }
+
+  .card-hover {
+    @apply hover:-translate-y-1.5 hover:border-transparent hover:shadow-card-hover;
+  }
+
+  .feature-card {
+    @apply card-base card-hover flex h-full min-h-[260px] flex-col p-6 sm:min-h-[292px] sm:p-8;
+  }
+
+  .info-card {
+    @apply card-base card-hover flex h-full min-h-[320px] flex-col p-6 sm:min-h-[360px] sm:p-8 lg:p-10;
+  }
+
+  .testimonial-card {
+    @apply relative rounded-card border border-border-blue bg-surface-card px-6 py-8 shadow-testimonial sm:px-8 sm:py-9 lg:px-10 lg:py-10;
+  }
+
+  .icon-circle {
+    @apply flex h-16 w-16 shrink-0 items-center justify-center rounded-full ring-8;
+  }
+
+  .btn-base {
+    @apply inline-flex min-h-12 cursor-pointer items-center justify-center rounded-button px-6 py-3 text-center text-base font-bold transition duration-200 ease-out focus-visible:outline-none focus-visible:ring-4 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-55;
+  }
+
+  .btn-primary {
+    @apply btn-base bg-primary text-white shadow-sm hover:bg-primaryHover hover:shadow-lg focus-visible:ring-primary/35 active:translate-y-px;
+  }
+
+  .btn-secondary {
+    @apply btn-base border border-primary/30 bg-white text-primary hover:border-primary/50 hover:bg-primaryLight focus-visible:ring-primary/25 active:translate-y-px;
+  }
+
+  .btn-accent {
+    @apply btn-base bg-accent text-white shadow-sm hover:bg-accentHover hover:shadow-lg focus-visible:ring-accent/35 active:translate-y-px;
+  }
+
+  .btn-ghost {
+    @apply btn-base bg-transparent text-primary hover:bg-primary/10 focus-visible:ring-primary/25 active:translate-y-px;
+  }
+
+  .store-button {
+    @apply flex min-h-16 w-full max-w-[240px] items-center justify-center gap-3 rounded-2xl bg-white px-5 py-3 text-left text-dark shadow-button transition duration-200 ease-out hover:-translate-y-1 hover:shadow-button-hover focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/45 active:translate-y-0 sm:w-auto sm:min-w-[210px];
+  }
+
+  .footer-link {
+    @apply inline-flex rounded-md text-sm font-medium leading-6 text-dark/65 transition-colors duration-200 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/25;
+  }
+
+  .social-link {
+    @apply flex min-h-11 items-center gap-2 rounded-full border border-primary/10 bg-white/70 px-4 py-2 text-sm font-bold text-dark/70 shadow-social transition duration-200 ease-out hover:-translate-y-0.5 hover:border-primary/20 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/25;
+  }
+}
