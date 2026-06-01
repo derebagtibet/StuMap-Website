@@ -201,7 +201,7 @@ export const StudentLeadSection = () => {
             disabled={isLoading}
             aria-busy={isLoading}
           >
-            {isLoading ? "Gönderiliyor..." : "Beni Arayın"}
+            {isLoading ? "Gönderiliyor..." : "Bizi Arayın"}
           </button>
 
           {isSubmitted && (

@@ -1,4 +1,4 @@
-import { Brain, Gamepad2, Handshake, LucideIcon } from "lucide-react";
+import { Brain, Gamepad2, Handshake, LucideIcon, Wrench } from "lucide-react";
 import { Container } from "../../common/Container";
 
 const MASCOT_IMAGE_SRC = "/assets/images/stumap-about-doctor.png";
@@ -24,6 +24,11 @@ const approachItems: ApproachItem[] = [
     title: "Sürekli Destek",
     text: "Tek seferlik bir test değil, üniversite seçiminden mezuniyete kadar süren bir yol arkadaşlığı sağlıyoruz.",
     icon: Handshake
+  },
+  {
+    title: "Hibrit Perspektif",
+    text: "Mesleki özel atölye çalışmalarıyla öğrencilerin hem teoride hem de pratikte kendilerini keşfetmelerine alan açıyoruz.",
+    icon: Wrench
   }
 ];
 

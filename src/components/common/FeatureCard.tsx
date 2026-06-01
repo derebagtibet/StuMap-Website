@@ -1,7 +1,7 @@
 import { LucideIcon } from "lucide-react";
 import { clsx } from "clsx";
 
-export type FeatureCardColor = "purple" | "orange" | "blue";
+export type FeatureCardColor = "purple" | "orange" | "blue" | "green";
 
 interface FeatureIconProps {
   icon: LucideIcon;
@@ -33,6 +33,10 @@ const colorStyles: Record<
   blue: {
     iconWrap: "bg-sky-100 ring-sky-100",
     icon: "text-sky-600"
+  },
+  green: {
+    iconWrap: "bg-emerald-100 ring-emerald-100",
+    icon: "text-emerald-600"
   }
 };
 

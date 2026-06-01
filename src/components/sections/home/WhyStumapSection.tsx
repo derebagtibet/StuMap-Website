@@ -1,4 +1,4 @@
-import { Bot, ClipboardCheck, Route } from "lucide-react";
+import { Bot, BriefcaseBusiness, ClipboardCheck, Route } from "lucide-react";
 import { Container } from "../../common/Container";
 import { FeatureCard, FeatureCardProps } from "../../common/FeatureCard";
 
@@ -23,6 +23,13 @@ const features: FeatureCardProps[] = [
       "Yapay zeka destekli asistan ile öğrencilere doğru bölüm ve kariyer önerileri sunulur.",
     icon: Bot,
     color: "blue"
+  },
+  {
+    title: "Workshop Desteği",
+    description:
+      "Mesleki özel atölye çalışmaları ile öğrenci hem teoride hem de pratikte kendini keşfetme fırsatı bulur.",
+    icon: BriefcaseBusiness,
+    color: "green"
   }
 ];
 
@@ -42,7 +49,7 @@ export const WhyStumapSection = () => {
           </h2>
         </div>
 
-        <div className="mt-10 grid min-w-0 items-stretch gap-7 sm:mt-12 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-9">
+        <div className="mt-10 grid min-w-0 items-stretch gap-7 sm:mt-12 md:grid-cols-2 md:gap-8 xl:grid-cols-4 xl:gap-8">
           {features.map((feature) => (
             <FeatureCard key={feature.title} {...feature} />
           ))}

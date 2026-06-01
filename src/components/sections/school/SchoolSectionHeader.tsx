@@ -43,8 +43,8 @@ export const SchoolSectionHeader = ({
 
       <p
         className={clsx(
-          "mx-auto mt-5 max-w-2xl text-base font-medium leading-8 sm:text-lg",
-          inverted ? "text-white/78" : "text-dark/62"
+          "mx-auto mt-5 max-w-2xl text-base font-semibold leading-8 sm:text-lg",
+          inverted ? "text-white/90" : "text-dark/70"
         )}
       >
         {description}

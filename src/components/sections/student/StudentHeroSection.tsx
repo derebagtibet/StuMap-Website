@@ -17,7 +17,7 @@ export const StudentHeroSection = () => {
 
           <h1 className="text-[2.75rem] font-extrabold leading-[1.06] tracking-normal text-dark sm:text-5xl md:text-6xl lg:text-[4.35rem]">
             Kariyer Yolculuğunu
-            <span className="mt-2 block text-primary">Oyun Gibi Keşfet</span>
+            <span className="mt-2 block text-primary">Eğlenerek Keşfet</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-[36rem] text-base font-medium leading-8 text-dark/65 sm:mx-0 sm:text-lg md:text-xl md:leading-9">

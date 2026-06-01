@@ -1,4 +1,4 @@
-import { Award, Handshake, Lightbulb, LucideIcon } from "lucide-react";
+import { Award, Handshake, Lightbulb, LucideIcon, Star } from "lucide-react";
 import { clsx } from "clsx";
 import { Container } from "../../common/Container";
 
@@ -6,19 +6,19 @@ interface AwardItem {
   title: string;
   description: string;
   icon: LucideIcon;
-  tone: "purple" | "orange" | "green";
+  tone: "purple" | "orange" | "green" | "blue";
 }
 
 const awards: AwardItem[] = [
   {
-    title: "JA Start-up Yarı Finalisti",
-    description: "JA Europe Girişimcilik Programı kapsamında yarı finalistlik derecesi.",
+    title: "JA Start-up Finalisti",
+    description: "JA Europe Girişimcilik Programı kapsamında finalistlik derecesi.",
     icon: Award,
     tone: "purple"
   },
   {
-    title: "İZİKAD Proje Yarışması 2024",
-    description: "12. Genç İZİKAD Proje Yarışması'nda 2024 yılı ikinciliği.",
+    title: "2024 İZİKAD Proje Yarışması",
+    description: "2024 12. Genç İZİKAD Proje Yarışması ikinciliği.",
     icon: Lightbulb,
     tone: "orange"
   },
@@ -28,13 +28,20 @@ const awards: AwardItem[] = [
       "Genç Başarı Eğitim Vakfı, Radikal Okulları, PKA ve İzmir Büyükşehir Belediyesi destekleriyle büyüyen girişim.",
     icon: Handshake,
     tone: "green"
+  },
+  {
+    title: "Etkim Yıldızları Finalistliği",
+    description: "Etkim Yıldızları programında finalistlik derecesi.",
+    icon: Star,
+    tone: "blue"
   }
 ];
 
 const toneClasses: Record<AwardItem["tone"], string> = {
   purple: "bg-[#7B2CF5]/10 text-[#7B2CF5] ring-[#7B2CF5]/10",
   orange: "bg-[#F59E0B]/12 text-[#F59E0B] ring-[#F59E0B]/10",
-  green: "bg-[#16A34A]/12 text-[#16A34A] ring-[#16A34A]/10"
+  green: "bg-[#16A34A]/12 text-[#16A34A] ring-[#16A34A]/10",
+  blue: "bg-[#0284C7]/10 text-[#0284C7] ring-[#0284C7]/10"
 };
 
 export const AwardsSection = () => {
@@ -56,7 +63,7 @@ export const AwardsSection = () => {
           </p>
         </div>
 
-        <div className="mt-12 grid items-stretch gap-6 md:grid-cols-3 lg:mt-14 lg:gap-8">
+        <div className="mt-12 grid items-stretch gap-6 md:grid-cols-2 lg:mt-14 lg:gap-8 xl:grid-cols-4">
           {awards.map(({ title, description, icon: Icon, tone }) => (
             <article
               key={title}
