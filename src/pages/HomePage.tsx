@@ -2,7 +2,7 @@ import { DownloadCTASection } from "../components/sections/home/DownloadCTASecti
 import { HeroSection } from "../components/sections/home/HeroSection";
 import { TestimonialSection } from "../components/sections/home/TestimonialSection";
 import { UserTypeCardsSection } from "../components/sections/home/UserTypeCardsSection";
-import { WhyStuMapSection } from "../components/sections/home/WhyStuMapSection";
+import { WhyStuMapSection } from "../components/sections/home/why-stumap-section";
 
 const HomePage = () => {
   return (
