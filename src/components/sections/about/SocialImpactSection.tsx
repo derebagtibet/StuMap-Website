@@ -27,7 +27,7 @@ export const SocialImpactSection = () => {
             <div className="mx-auto max-w-[48rem] space-y-6 text-center text-base font-medium leading-8 text-[#081B4B]/68 sm:text-lg sm:leading-9">
               <p>
                 Üniversite koridorlarında başlayan bu yolculuk, bugün binlerce
-                öğrenciye dokunan bir sosyal girişime dönüştü. Stumap olarak,
+                öğrenciye dokunan bir sosyal girişime dönüştü. StuMap olarak,
                 eğitimde fırsat eşitliğini savunuyor ve her gencin doğru
                 kariyer adımlarını atması için oyunlaştırma tabanlı teknolojiler
                 geliştiriyoruz.

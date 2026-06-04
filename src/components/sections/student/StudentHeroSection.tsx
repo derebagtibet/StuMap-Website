@@ -12,7 +12,7 @@ export const StudentHeroSection = () => {
         <div className="min-w-0 max-w-2xl text-center sm:text-left">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-white px-4 py-2 text-sm font-extrabold text-primary shadow-[0_10px_26px_rgba(109,74,255,0.08)]">
             <Sparkles className="h-4 w-4" aria-hidden="true" />
-            Stumap Student
+            StuMap Student
           </div>
 
           <h1 className="text-[2.75rem] font-extrabold leading-[1.06] tracking-normal text-dark sm:text-5xl md:text-6xl lg:text-[4.35rem]">

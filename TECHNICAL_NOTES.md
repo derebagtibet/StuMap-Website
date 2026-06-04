@@ -96,7 +96,7 @@ src/
 │       ├── home/
 │       │   ├── HeroSection.tsx
 │       │   ├── UserTypeCards.tsx
-│       │   ├── WhyStumapSection.tsx
+│       │   ├── WhyStuMapSection.tsx
 │       │   ├── TestimonialSection.tsx
 │       │   └── DownloadCTA.tsx
 │       └── career/

@@ -33,7 +33,7 @@ const features: FeatureCardProps[] = [
   }
 ];
 
-export const WhyStumapSection = () => {
+export const WhyStuMapSection = () => {
   return (
     <section
       className="page-section section-surface"
@@ -45,7 +45,7 @@ export const WhyStumapSection = () => {
             id="why-stumap-title"
             className="section-title"
           >
-            Neden Stumap?
+            Neden StuMap?
           </h2>
         </div>
 

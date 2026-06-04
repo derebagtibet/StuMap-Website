@@ -1,6 +1,6 @@
-# Stumap Website Frontend
+# StuMap Website Frontend
 
-Modern, responsive and scalable landing page implementation for the Stumap platform.
+Modern, responsive and scalable landing page implementation for the StuMap platform.
 
 ---
 

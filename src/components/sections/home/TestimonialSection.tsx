@@ -13,7 +13,7 @@ interface TestimonialQuoteCardProps {
 
 const testimonial: Testimonial = {
   quote:
-    "Stumap sayesinde hangi alanlara daha yatkın olduğumu fark ettim. Kariyer hedeflerimi daha net belirledim ve önümdeki adımları güvenle planlamaya başladım.",
+    "StuMap sayesinde hangi alanlara daha yatkın olduğumu fark ettim. Kariyer hedeflerimi daha net belirledim ve önümdeki adımları güvenle planlamaya başladım.",
   studentName: "Elif Yılmaz",
   studentRole: "12. Sınıf Öğrencisi"
 };

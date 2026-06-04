@@ -6,8 +6,8 @@ import { clsx } from "clsx";
 import { ROUTES } from "../../constants/routes";
 
 const NAV_ITEMS = [
-  { label: "Stumap School", href: ROUTES.SCHOOL },
-  { label: "Stumap Student", href: ROUTES.STUDENT },
+  { label: "StuMap School", href: ROUTES.SCHOOL },
+  { label: "StuMap Student", href: ROUTES.STUDENT },
   { label: "Kariyer Testi", href: ROUTES.CAREER_TEST },
   { label: "Hakkımızda", href: ROUTES.ABOUT }
 ] as const;

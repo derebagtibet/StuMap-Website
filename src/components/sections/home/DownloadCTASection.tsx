@@ -14,14 +14,14 @@ const downloadLinks: DownloadLink[] = [
     label: "Download on the",
     storeName: "App Store",
     href: "#",
-    ariaLabel: "Stumap uygulamasını App Store'dan indir",
+    ariaLabel: "StuMap uygulamasını App Store'dan indir",
     icon: Apple
   },
   {
     label: "GET IT ON",
     storeName: "Google Play",
     href: "#",
-    ariaLabel: "Stumap uygulamasını Google Play'den indir",
+    ariaLabel: "StuMap uygulamasını Google Play'den indir",
     icon: Play
   }
 ];
@@ -39,7 +39,7 @@ export const DownloadCTASection = () => {
               id="download-cta-title"
               className="section-title text-white"
             >
-              Stumap mobil uygulamasını hemen indirin
+              StuMap mobil uygulamasını hemen indirin
             </h2>
 
             <p className="mx-auto mt-5 max-w-2xl text-base font-medium leading-8 text-white/85 sm:text-lg">

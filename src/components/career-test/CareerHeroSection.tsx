@@ -37,7 +37,7 @@ export const CareerHeroSection = () => {
             {!hasImageError ? (
               <img
                 src={CAREER_TEST_HERO_IMAGE_SRC}
-                alt="Farklı meslekleri temsil eden Stumap karakterleri"
+                alt="Farklı meslekleri temsil eden StuMap karakterleri"
                 className="absolute -bottom-[7%] left-1/2 h-auto w-[132%] max-w-none -translate-x-1/2 object-contain"
                 loading="eager"
                 onError={() => setHasImageError(true)}

@@ -33,7 +33,7 @@ export const StudentDiscoverySection = () => {
             Kafandaki Soruları <span className="text-primary">Haritaya Dönüştür</span>
           </h2>
           <p className="body-copy-lg mx-auto mt-5 max-w-2xl">
-            Stumap Student, karar vermeyi tek bir teste sıkıştırmaz; seni adım
+            StuMap Student, karar vermeyi tek bir teste sıkıştırmaz; seni adım
             adım tanıyan eğlenceli bir keşif deneyimi sunar.
           </p>
         </div>

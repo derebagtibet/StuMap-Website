@@ -211,7 +211,7 @@ export const TrustedInstitutionsSection = () => {
           titleId="trusted-institutions-title"
           eyebrow="Referans kurumlar"
           title="Güvenen Kurumlar"
-          description="Rehberlik süreçlerini dijitalleştiren kurumlar Stumap ile öğrenci gelişimini daha görünür ve yönetilebilir hale getiriyor."
+          description="Rehberlik süreçlerini dijitalleştiren kurumlar StuMap ile öğrenci gelişimini daha görünür ve yönetilebilir hale getiriyor."
           className="[&_h2]:text-primary"
         />
 

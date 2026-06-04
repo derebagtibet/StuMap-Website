@@ -62,7 +62,7 @@ export const SchoolFeaturesSection = () => {
               Kurumsal Platform <span className="text-primary">Özellikleri</span>
             </>
           }
-          description="Stumap, okulların rehberlik süreçlerini ölçülebilir, yönetilebilir ve kurum geneline yayılabilir hale getiren güçlü araçlar sunar."
+          description="StuMap, okulların rehberlik süreçlerini ölçülebilir, yönetilebilir ve kurum geneline yayılabilir hale getiren güçlü araçlar sunar."
         />
 
         <div className="mt-12 grid min-w-0 items-stretch gap-6 md:grid-cols-2 lg:mt-16 lg:gap-8">

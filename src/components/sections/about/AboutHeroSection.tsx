@@ -17,7 +17,7 @@ export const AboutHeroSection = () => {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[38rem] text-base font-medium leading-8 text-[#081B4B]/68 sm:mx-0 sm:text-lg md:text-xl md:leading-9">
-            Stumap, kariyer planlamayı bir stres kaynağı olmaktan çıkarıp, her
+            StuMap, kariyer planlamayı bir stres kaynağı olmaktan çıkarıp, her
             öğrencinin kendi potansiyelini keşfettiği eğlenceli bir maceraya
             dönüştürmek için doğdu.
           </p>

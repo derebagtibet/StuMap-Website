@@ -2,13 +2,13 @@ import { DownloadCTASection } from "../components/sections/home/DownloadCTASecti
 import { HeroSection } from "../components/sections/home/HeroSection";
 import { TestimonialSection } from "../components/sections/home/TestimonialSection";
 import { UserTypeCardsSection } from "../components/sections/home/UserTypeCardsSection";
-import { WhyStumapSection } from "../components/sections/home/WhyStumapSection";
+import { WhyStuMapSection } from "../components/sections/home/WhyStuMapSection";
 
 const HomePage = () => {
   return (
     <>
       <HeroSection />
-      <WhyStumapSection />
+      <WhyStuMapSection />
       <TestimonialSection />
       <DownloadCTASection />
       <UserTypeCardsSection />
